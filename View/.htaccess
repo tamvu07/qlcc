@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteBase /
+
+RewriteRule  ^quanlynhansu.php$ masterpage.php?p=quanlynhansu [L]
+
+RewriteRule  ^quanlynhansu.php$ masterpage.php?p=themnhansu [L]
+
+RewriteRule  ^quanlynhansu.php$ masterpage.php?p=danhsachnhansu [L]
+
+RewriteRule  ^quanlynhansu.php$ masterpage.php?p=hopdongnhanvien [L]
